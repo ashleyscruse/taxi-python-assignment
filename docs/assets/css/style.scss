@@ -1,0 +1,91 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Morehouse brand colors
+$maroon: #840028;
+$maroon-dark: #6a0020;
+$gold: #C1A231;
+
+// Hero / page header
+.page-header {
+  background-color: $maroon !important;
+  background-image: linear-gradient(120deg, $maroon, $maroon-dark) !important;
+  color: #ffffff !important;
+}
+
+.page-header .project-name,
+.page-header .project-tagline {
+  color: #ffffff !important;
+}
+
+// All headings on the page
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: $maroon !important;
+}
+
+// Links
+.main-content a {
+  color: $maroon;
+
+  &:hover {
+    color: $gold;
+  }
+}
+
+// Buttons in the hero header
+.page-header .btn {
+  color: #ffffff;
+  border-color: $gold;
+  background-color: rgba(193, 162, 49, 0.2);
+
+  &:hover {
+    background-color: $gold;
+    border-color: $gold;
+    color: $maroon;
+  }
+}
+
+// Inline code
+.main-content code {
+  color: $maroon;
+  background-color: #f5f1f2;
+}
+
+// Code blocks: light maroon-tinted background, dark text (preserves syntax highlighting)
+.main-content pre {
+  background-color: #fbf3f4;
+  border: 1px solid #e8d5d8;
+  color: #1f1f1f;
+}
+
+.main-content pre code {
+  color: inherit;
+  background-color: transparent;
+}
+
+// Tables
+.main-content table th {
+  background-color: $maroon;
+  color: #ffffff;
+}
+
+.main-content table tr:nth-child(2n) {
+  background-color: #faf6f7;
+}
+
+// Blockquote accent
+.main-content blockquote {
+  border-left-color: $gold;
+}
+
+// Horizontal rule
+.main-content hr {
+  background-color: $gold;
+}
