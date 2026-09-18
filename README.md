@@ -1,6 +1,6 @@
 # Taxi Data in Python
 
-A teaching module and homework assignment: analyze 38 million New York City taxi trips
+A hands-on lab and homework assignment: analyze 38 million New York City taxi trips
 with pandas, on a supercomputer, from a web browser.
 
 **Course site: [ashleyscruse.github.io/taxi-python-assignment](https://ashleyscruse.github.io/taxi-python-assignment/)**
@@ -12,8 +12,8 @@ repository into their own folder with one line, and work through the notebooks.
 
 | | |
 |---|---|
-| `docs/` | The course site: the in-class module, and the homework |
-| `notebooks/module.ipynb` | The in-class follow-along |
+| `docs/` | The course site: the lab, and the homework |
+| `notebooks/lab.ipynb` | The in-class follow-along |
 | `notebooks/taxi_starter.ipynb` | The homework starter, setup pre-filled |
 | `scripts/export_csv.py` | Builds the monthly CSVs the notebooks read |
 
@@ -31,5 +31,5 @@ be taught side by side. The reasoning is the point; the language is not.
 
 ## For instructors
 
-See the "For instructors" section of the [module page](https://ashleyscruse.github.io/taxi-python-assignment/module.html)
+See the "For instructors" section of the [lab page](https://ashleyscruse.github.io/taxi-python-assignment/lab.html)
 for how to stage the data and point the notebooks at your own filesystem.

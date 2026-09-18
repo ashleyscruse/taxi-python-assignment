@@ -1,10 +1,10 @@
 ---
 layout: default
-title: The Module
+title: The Lab
 tagline: Get a notebook on the supercomputer and follow along
 ---
 
-[Home](./)  |  **Module**  |  [Homework](homework.html)
+[Home](./)  |  **Lab**  |  [Homework](homework.html)
 
 This is what we do together in class. Three steps to get set up, then we analyze taxi data on a supercomputer.
 
@@ -18,29 +18,29 @@ This is what we do together in class. Three steps to get set up, then we analyze
 
 JupyterLab opens, running on a compute node at TACC. That is the supercomputer. No SSH, no scheduler, no install.
 
-## Step 2: Pull the module into your folder
+## Step 2: Pull the lab into your folder
 
 In JupyterLab, click **File → New → Notebook**, and choose the Python 3 kernel.
 
 Paste this into the first cell and run it (Shift+Enter):
 
 ```python
-!git clone https://github.com/ashleyscruse/taxi-python-assignment.git ~/taxi-module
+!git clone https://github.com/ashleyscruse/taxi-python-assignment.git ~/taxi-lab
 ```
 
 Then look in the file browser on the left. The folder is there.
 
-That is the whole distribution step. The module now lives in your own folder on Vista, and it is yours to edit and break.
+That is the whole distribution step. The lab now lives in your own folder on Vista, and it is yours to edit and break.
 
-## Step 3: Open the module notebook
+## Step 3: Open the lab notebook
 
-In the file browser on the left, open `taxi-module` → `notebooks` → `module.ipynb`.
+In the file browser on the left, open `taxi-lab` → `notebooks` → `lab.ipynb`.
 
 Run the cells in order and follow along. We will stop and talk between sections.
 
 ---
 
-## What we cover in the module
+## What we cover in the lab
 
 | Section | What you learn |
 |---|---|
@@ -59,7 +59,7 @@ The [homework](homework.html) asks a new question of the same data, and you answ
 
 ## For instructors
 
-This module is a GitHub repository, and students pull it with the one line in step 2.
+This lab is a GitHub repository, and students pull it with the one line in step 2.
 
 If your cluster's compute nodes cannot reach GitHub, stage a copy in a world readable
 folder on Vista and have students run this instead:
@@ -67,7 +67,7 @@ folder on Vista and have students run this instead:
 ```python
 import shutil, os
 shutil.copytree("/work/10539/ashleyscruse/vista/taxi-python-assignment",
-                os.path.expanduser("~/taxi-module"))
+                os.path.expanduser("~/taxi-lab"))
 ```
 
 To run it for your own class:

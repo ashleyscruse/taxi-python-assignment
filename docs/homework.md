@@ -4,7 +4,7 @@ title: Airport Pricing
 tagline: Your homework assignment
 ---
 
-[Home](./)  |  [Module](module.html)  |  **Homework**
+[Home](./)  |  [Lab](lab.html)  |  **Homework**
 
 You're a data analyst at the NYC Taxi & Limousine Commission. The commission has a follow-up question:
 

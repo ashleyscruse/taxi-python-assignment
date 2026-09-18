@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate module.ipynb, the in-class follow-along notebook."""
+"""Regenerate lab.ipynb, the in-class follow-along notebook."""
 import json, pathlib
 HERE = pathlib.Path(__file__).parent
 
@@ -139,5 +139,5 @@ nb = {"cells": CELLS,
       "metadata": {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
                    "language_info": {"name": "python", "version": "3"}},
       "nbformat": 4, "nbformat_minor": 5}
-(HERE / "module.ipynb").write_text(json.dumps(nb, indent=1) + "\n")
-print("wrote module.ipynb")
+(HERE / "lab.ipynb").write_text(json.dumps(nb, indent=1) + "\n")
+print("wrote lab.ipynb")
